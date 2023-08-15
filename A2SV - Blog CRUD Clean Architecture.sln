@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{71531148-EDB0-4181-9BA8-D9FAE10648EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Domain", "Blog.Domain\Blog.Domain.csproj", "{0013C098-F464-44E5-992A-EF351F607C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Application", "Blog.Application\Blog.Application.csproj", "{7E71E861-D7A3-44A8-A889-D76489C9ED21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF756A9C-3B3D-4E78-87A0-7415014F7272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{358C99D3-1B49-4500-B3E2-7570FF7F2A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0013C098-F464-44E5-992A-EF351F607C97} = {71531148-EDB0-4181-9BA8-D9FAE10648EF}
+		{7E71E861-D7A3-44A8-A889-D76489C9ED21} = {71531148-EDB0-4181-9BA8-D9FAE10648EF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0013C098-F464-44E5-992A-EF351F607C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0013C098-F464-44E5-992A-EF351F607C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0013C098-F464-44E5-992A-EF351F607C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0013C098-F464-44E5-992A-EF351F607C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E71E861-D7A3-44A8-A889-D76489C9ED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E71E861-D7A3-44A8-A889-D76489C9ED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E71E861-D7A3-44A8-A889-D76489C9ED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E71E861-D7A3-44A8-A889-D76489C9ED21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
